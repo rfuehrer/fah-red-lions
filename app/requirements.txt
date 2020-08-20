@@ -1,2 +1,6 @@
 requests==2.23.0
 urllib3==1.25.9
+gunicorn
+Flask
+Jinja2
+Werkzeug
