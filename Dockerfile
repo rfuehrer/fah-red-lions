@@ -24,4 +24,4 @@ ENV PYTHONUNBUFFERED 1
 EXPOSE 8888
 
 #ENTRYPOINT ["/bin/sh", "/app/entrypoint.sh"]
-CMD python3 -m http.server 8888 -d /app/
+CMD python3 -m http.server 8888 &.
