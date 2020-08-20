@@ -23,4 +23,5 @@ ENV PYTHONUNBUFFERED 1
 
 EXPOSE 8888
 
-ENTRYPOINT ["/bin/sh", "/app/entrypoint.sh"]
+#ENTRYPOINT ["/bin/sh", "/app/entrypoint.sh"]
+CMD ["/bin/sh", "/app/entrypoint.sh"]
