@@ -1,5 +1,5 @@
 build:
     docker:
-      web: Dockerfile
- # run:
- #   web: bundle exec puma -C config/puma.rb
+      fah: Dockerfile
+  run:
+    fah:  python3 -m http.server 8888 -d /app/
